@@ -1,0 +1,7 @@
+name: manipulate secrets
+run-name: read secrets from repo config
+on: push
+jobs:
+  print-json:
+    runs-on: ubuntu-latest
+    run: cat ./constants/values.json
