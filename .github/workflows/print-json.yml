@@ -4,4 +4,5 @@ on: push
 jobs:
   print-json:
     runs-on: ubuntu-latest
-    run: cat ./constants/values.json
+    steps:
+      - run: cat ./constants/values.json
