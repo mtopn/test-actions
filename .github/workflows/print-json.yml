@@ -1,5 +1,5 @@
-name: manipulate secrets
-run-name: read secrets from repo config
+name: read json file
+run-name: read values from json file in Actions
 on: push
 jobs:
   print-json:
